@@ -1,0 +1,9 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|in|out)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+Options All -Indexes
+
+RewriteEngine on
